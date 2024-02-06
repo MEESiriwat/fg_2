@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="IT2503"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 02:09:14 PM"/>
+        <attribute name="created" value="SVQyNTAzO0lUMjUwMy0wMDU7MjAyNC0wMi0wNjswMjowNDoxMiBQTTsyMTgx"/>
+        <attribute name="edited" value="SVQyNTAzO0lUMjUwMy0wMDU7MjAyNC0wMi0wNjswMjowOToxNCBQTTsxOzIyOTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tmp" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input days temperature : &quot;" newline="True"/>
+            <input variable="tmp"/>
+            <if expression="tmp &lt; 0">
+                <then>
+                    <output expression="&quot;Freezing weather.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="tmp &lt; 10">
+                        <then>
+                            <output expression="&quot;Very cold weather.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="tmp &lt; 20">
+                                <then>
+                                    <output expression="&quot;Cold weather.&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="tmp &lt; 30">
+                                        <then>
+                                            <output expression="&quot;Normal in temp.&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="tmp &lt; 40">
+                                                <then>
+                                                    <output expression="&quot;Its Hot.&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Its very hot.&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

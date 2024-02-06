@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="IT2503"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 03:32:40 PM"/>
+        <attribute name="created" value="SVQyNTAzO0lUMjUwMy0wMDU7MjAyNC0wMi0wNjswMzozMDoxOSBQTTsyMTg4"/>
+        <attribute name="edited" value="SVQyNTAzO0lUMjUwMy0wMDU7MjAyNC0wMi0wNjswMzozMjo0MCBQTTsxOzIyOTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="int1, int2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input the values for Number1 and Number2 : &quot;" newline="True"/>
+            <input variable="int1"/>
+            <input variable="int2"/>
+            <if expression="int1 == int2">
+                <then>
+                    <output expression="&quot;Number1 and Number2 are equal&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Number1 and Number2 are not equal&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
